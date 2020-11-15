@@ -1,7 +1,7 @@
 import React from 'react';
 
 import './spiner.css';
-import spin from './Double Ring-3.3s-200px.gif';
+import spin from './spinImg.gif';
 
 const Spiner = () => {
     return(
