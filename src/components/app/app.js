@@ -9,7 +9,7 @@ import './app.css';
 
 const App = () => {
     return (
-        <div>
+        <div className="app-container">
             <Header />
             <RandomPlanet />
             <div className="row mb2">
