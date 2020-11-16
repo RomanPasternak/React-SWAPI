@@ -4,9 +4,9 @@ import './spiner.css';
 import spin from './spinImg.gif';
 
 const Spiner = () => {
-    return(
+    return (
         <div className="spiner">
-            <img src={spin} />
+            <img src={spin} alt='spiner' />
         </div>
     );
 };
