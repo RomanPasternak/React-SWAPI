@@ -36,7 +36,7 @@ export default class PersonDetails extends React.Component{
     render() {
 
         if (!this.state.person) {
-            return <span>Select a person from a list</span>
+            return <span>Select a item from a list</span>
         };
 
         const { id, name, gender, birthYear, eyeColor } = this.state.person
